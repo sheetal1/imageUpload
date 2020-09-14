@@ -1,0 +1,10 @@
+<div class="row justify-content-center"> 
+    <h3 style="color:blue;">{{message}}</h3> 
+</div>
+<form action="">
+    <div class="form-group">
+        <label for="name">Select file:</label>
+        <input type="file" class="form-control"  ng-model="user.file" id="name">
+    </div>
+    <button type="submit" class="btn btn-primary"  ng-click="login(user)">upload</button>
+  </form>

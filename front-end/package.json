@@ -1,0 +1,20 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "image upload",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "shital wankhede",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.8.0",
+    "angular-route": "^1.8.0",
+    "angular-ui-router": "^1.0.28",
+    "bootstrap": "^4.5.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
